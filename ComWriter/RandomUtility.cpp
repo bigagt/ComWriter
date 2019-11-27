@@ -3,6 +3,14 @@
 
 #include <string>
 #include <cstdlib>
+#include <time.h>
+
+RandomUtility::StaticConstructor RandomUtility::_StaticConstructor;
+
+RandomUtility::StaticConstructor::StaticConstructor()
+{
+	srand((int)time(NULL));
+}
 
 int RandomUtility::Range(int low, int high)
 {
