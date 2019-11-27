@@ -164,6 +164,9 @@
     </ClCompile>
     <ClCompile Include="RandomUtility.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="simple2.asm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
